@@ -1,6 +1,104 @@
-<?php
-include_once 'header.php';
-?>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Portfólio profissional, especialista em tecnologia da informação.">
+    <meta name="author" content="Adriana Lima">
+    <link rel="shortcut icon" href="assets/images/logo-4.png" type="image/x-ico">
+
+    
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="assets/css/index.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+
+    <!-- Fonts CSS -->
+    <link href="assets/fonts/fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        
+    <title> Adriana Lima Dev Full Stack</title>
+
+
+    <!-- Google Tag Manager -->
+    <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N8FVBKX');
+    </script>
+    <!-- End Google Tag Manager -->
+
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8FVBKX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <!-- Preloader -->
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky header-section--hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index" class="logo">
+                            <img src="assets/images/logo-name.png" alt="Adriana Lima" rel="noopener noreferrer">
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#services">Skills</a></li>
+                            <li class="scroll-to-section"><a href="#courses">Formação</a></li>
+                            <li class="scroll-to-section"><a href="#portfolio">Portfólio</a></li>
+                            <li class="has-sub">
+                                <a href="javascript:void(0)">+Páginas</a>
+                                <ul class="sub-menu">
+                                    <li><a href="sobre" rel="noopener noreferrer">Sobre ela</a></li>
+                                    <li><a href="curriculum" rel="noopener noreferrer">Curriculum</a></li>
+                                    <li><a href="blog" rel="noopener noreferrer">Novidades</a></li>
+                                    <li><a href="temas.php" rel="noopener noreferrer">Temas</a></li>
+                                </ul>
+                            </li>
+                            <li class="scroll-to-section"><a href="#testimonials">Clientes</a></li>
+                            <li class="scroll-to-section"><a href="#contact-section">Contato</a></li>
+                            <!--<li class="scroll-to-section"><a href="./private/index.php" target="_blank"><i class="fa fa-sign-in"></i></a></li>-->
+                            <button type="button" class="rounded-pill btn-rounded">
+                                <a href="loja.php" target="_blank" rel="noopener noreferrer">
+                                    Loja
+                                    <span><i class="fa fa-solid fa-cart-shopping"></i></span>
+                                </a>
+                            </button>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
 
 <!-- *****Sobre Ela Start ***** -->
 <section class="main-banner atomos" id="top">
@@ -237,9 +335,6 @@ include_once 'header.php';
                         <span>1600 hs</span>
                         <span>2016 - 2018</span>
                         <span class="last-span">Tecnologo</span>
-                        <!--<div class="text-button">
-                          <a rel="nofollow" href="https://www.amelhorfaculdadedomaranhao.com.br/registro-de-diplomas" target="_blank" rel="noopener noreferrer">Validação</a>
-                        </div>-->
                       </div>
                     </div>
                   </li>
@@ -264,9 +359,6 @@ include_once 'header.php';
                         <span>+1600 Hs</span>
                         <span>+6 Anos</span>
                         <span class="last-span">+20 Certificados</span>
-                       <!-- <div class="text-button">
-                          <a rel="nofollow" href="https://drive.google.com/drive/folders/1E-NWiRb572LgRKKLIpqFlR7eZofX5mBK?usp=sharing" target="_blank" rel="noopener noreferrer">Google Drive Certificados</a>
-                        </div>-->
                       </div>
                     </div>
                   </li>
@@ -297,9 +389,6 @@ include_once 'header.php';
                         <span>+120 Hs</span>
                         <span>+12 Meses</span>
                         <span class="last-span">2 Certificados</span>
-                        <!--<div class="text-button">
-                          <a rel="nofollow" href="https://drive.google.com/drive/folders/1E-NWiRb572LgRKKLIpqFlR7eZofX5mBK?usp=sharing" target="_blank" rel="noopener noreferrer">Google Drive Certificados</a>
-                        </div>-->
                       </div>
                     </div>
                   </li>
@@ -336,9 +425,6 @@ include_once 'header.php';
                         <span>+60 Hs</span>
                         <span>+6 Meses</span>
                         <span class="last-span">+ Certificados</span>
-                        <!--<div class="text-button">
-                          <a rel="nofollow" href="https://drive.google.com/drive/folders/1E-NWiRb572LgRKKLIpqFlR7eZofX5mBK?usp=sharing" target="_blank" rel="noopener noreferrer">Google Drive Certificados</a>
-                        </div>-->
                       </div>
                     </div>
                   </li>
@@ -559,4 +645,165 @@ include_once 'header.php';
 </section>
 <!-- *****Depoimentos End ***** -->
 
-<?php include_once 'footer.php'; ?>
+<?php
+define('ROOT_PATH', dirname(__FILE__));
+
+?>
+
+
+<!-- *******Footer Start********* -->
+<section class="contact-us" id="contact-section">
+  <div class="container">
+    <div class="row text-white">
+      <div class="col-lg-8 shadow p-3 conta">
+        <div class="cta-info w-100">
+          <h4 class="display-4 fw-bold">Vamos conversar?<br> Envie sua mensagem.</h4>
+          <p class="lh-lg text-white">
+            Atuando há 6 anos no mercado de TI, estou sempre buscando inovação e melhoria<br> nos trabalhos que desenvolvo!
+          </p>
+          <h3 class="display-3--brief">Soft Skills:</h3>
+          <ul class="cta-info__list">
+            <li>Ética profissional - Sigo as normas LGPD.</li>
+            <li>Respeito a Individualidade - Cada indivíduo tem sua essência,
+              <br>entender que resultados dependem do respeito e comportamento<br>
+              que se tem antes as diferenças.
+            </li>
+            <li>Resiliência.</li>
+          </ul>
+          <br>
+          <div class="white-button">
+            <a class="gradient border-rd" href="curriculum.php" target="_blank">Currículum</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form Contact -->
+      <div class="col-lg-4">
+        <form id="contact" action="envia.php" method="post">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="section-heading">
+                <h6>Contato</h6>
+                <h4>Fale <em>Comigo!</em></h4>
+                <p>Deseja saber mais sobre meu trabalho ou contratar meus serviços? Mande sua mensagem.</p>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <fieldset>
+                <input type="name" name="name" id="name" placeholder="Nome completo" autocomplete="on" required>
+              </fieldset>
+            </div>
+            <div class="col-lg-12">
+              <fieldset>
+                <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Seu Email" required="">
+              </fieldset>
+            </div>
+            <div class="col-lg-12">
+              <fieldset>
+                <textarea name="mensagem" id="mensagem" placeholder="Sua Mensagem"></textarea>
+              </fieldset>
+            </div>
+            <div class="col-lg-12">
+              <fieldset>
+                <button type="submit" name="submit" id="form-submit" class="main-gradient-button">Enviar Mensagem</button>
+              </fieldset>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-lg-12">
+        <ul class="social-icons">
+          <li><a href="https://github.com/Adrianalcr"><i class="fa-brands fa-github" style="color: #000;"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram" style="color: #000;"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/adriana-lima-cr/"><i class="fa-brands fa-linkedin-in" style="color: #000;"></i></a></li>
+          <li><a href="https://codesandbox.io/u/Adrianalcr"><i class="fa fa-cube" style="color: #000;"></i></a></li>
+          <li><a href="https://codepen.io/Adrianalcr"><i class="fa-brands fa-codepen" style="color: #000;"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-lg-12">
+        <p class="copyright">Copyright © <?php echo date('Y'); ?> Adriana Lima - 44.233.266/0001-50. Todos os direitos reservados.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Botão WhatsApp-->
+	<div id="Whatsapp">
+    <a class="Whatsapp" href="https://api.whatsapp.com/send?phone=+5598984469697&text=Oi, tenho interesse no serviço de desenvolvimento web." target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+<!--End Botão WhatsApp-->
+
+<!-- Back to Top -->
+<a href="body" class="back-to-top scroll-to-section"><i class="fa fa-2x fa-solid fa-arrow-up-from-bracket"></i></a>
+
+<!-- Cookies-->
+<section class="cookie">
+   <div class="txt">
+      <p class="">Usamos cookies neste site,<br>
+         leia a nossa <a type="text" data-bs-toggle="modal" data-bs-target="#staticBackdrop">política de cookie.</a>
+      </p>
+   </div>
+   <div>
+      <a class="btn accept">Ciente</a>
+   </div>
+</section>
+<!-- Cookies-->
+
+<!-- Modal -->
+<div class="cookies modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Política de Cookies</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h3>Este site usa política de cookies para melhorar a navegação!</h3>
+        <p>Os cookies só duram enquanto permanecer na navegação.</p>
+        <p>Eles são usados para aprimorar a sua experiência. Ao fechar este banner ou continuar na página, você concorda com o uso de cookies.</p>
+        <p>Leia a <a href="./politica-privacidade.php">política de privacidade</a>.</p>
+        <hr>
+        O consentimento é uma das chamadas bases legais, da <a rel="nofollow" href="http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm" target="_blank">Lei Geral de Proteção de Dados nº 13.709/2018 (LGPD).</a> 
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Cookies-->
+
+
+
+<!-- Scripts Datta-->
+<script src="assets/js/stats.min.js"></script>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/lib/isotope/isotope.min.js"></script>
+<script src="assets/js/owl-carousel.js"></script>
+<script src="assets/js/lightbox.js"></script>
+<script src="assets/js/tabs.js"></script>
+<script src="assets/js/slick-slider.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/scripts.js"></script>
+<script src="assets/lib/wow/wow.min.js"></script>
+<script src="assets/js/skill.js"></script>
+<script src="assets/fonts/fontawesome-free-6.1.1-web/js/all.js"></script>
+<script src="assets/fonts/fontawesome-free-6.1.1-web/js/all.min.js"></script>
+
+
+<!-- Script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="assets/js/cookies.js"></script>
+
+<script>
+  $(".accept").click(function(){
+		$(".cookie").hide();
+  //Enter your code hear...
+	});
+</script>
+</body>
+
+</html>
