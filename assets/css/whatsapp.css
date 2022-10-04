@@ -1,0 +1,68 @@
+/*******************************/
+/*****Botão do Whatsapp CSS*****/
+/*******************************/
+.Whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 40px;
+    background: rgb(246, 5, 134);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #fff;
+    z-index: 1000;
+    -webkit-animation: anime 3s ease 6;
+    animation: anime 3s ease 6;
+  }
+  
+  @-webkit-keyframes anime {
+    0%,
+    50%,
+    100% {
+      transform: translatey(0);
+    }
+    20% {
+      transform: translatey(5px);
+    }
+    25% {
+      transform: translatey(-20px);
+    }
+    30% {
+      transform: translatey(20px);
+    }
+    35% {
+      transform: translatey(-5px);
+    }
+  }
+  
+  @keyframes anime {
+    0%,
+    50%,
+    100% {
+      transform: translatey(0);
+    }
+    20% {
+      transform: translatey(5px);
+    }
+    25% {
+      transform: translatey(-20px);
+    }
+    30% {
+      transform: translatey(20px);
+    }
+    35% {
+      transform: translatey(-5px);
+    }
+  }
+  
+  .Whatsapp:hover {
+    background: #000;
+    color: #fff;
+  }
+  .Whatsapp i {
+    margin-top: 18px;
+  }
+  

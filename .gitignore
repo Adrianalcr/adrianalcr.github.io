@@ -1,0 +1,8 @@
+/bower_components/
+/node_modules/
+/install/
+/private/
+.sass-cache/
+.npmignore
+.hatacess
+.hatacess.old

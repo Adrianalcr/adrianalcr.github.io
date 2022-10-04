@@ -1,0 +1,103 @@
+body {
+    background: aliceblue;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 4rem;
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+}   
+.aviso{
+    font-family: cursive;
+}
+.backup{
+    background: aliceblue;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 4rem;
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 8rem;
+}
+.modal-header, .modal-footer{
+    background-color: #87c7a9; 
+}
+.modal-title{
+    font-weight: 600;
+}
+.bkp__input {
+height: 48px;
+width: 100%;
+box-sizing: border-box;
+padding-left: 8px;
+border: unset;
+outline: none;
+position: relative;
+}
+
+.bkp__input-border {
+height: var(--border-height);
+width: 100%;
+margin-bottom: 16px;
+background: var(--light-gray);
+transition: .3s ease-in-out;
+}
+
+.bkp__input-border::after {
+content: '';
+display: block;
+height: var(--border-height);
+width: 0;
+margin-bottom: 16px;
+background: var(--input-linear);
+transition: .3s ease-in-out;
+}
+
+.bkp__input:focus + .bkp__input-border::after {
+width: 100%;
+}
+
+.bkp__input-border.error {
+background: var(--input-error);
+}
+
+.bkp__input-border.error::after {
+background: var(--input-error);
+}
+.form_body {
+height: 70vh;
+background: var(--input-linear);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.login__container {
+height: 100%;
+width: 100%;
+background-color: antiquewhite;
+box-sizing: border-box;
+padding: 22px;
+border-radius: 8px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+line-height: 5px;
+}
+
+.label__title {
+margin-bottom: 12px;
+color: cadetblue;
+font-size: 18px;
+font-weight: 300;
+}
