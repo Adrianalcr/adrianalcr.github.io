@@ -11,14 +11,14 @@
 
     
     <!-- Styles CSS -->
-    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="/assets/css/index.css">
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     
 
     <!-- Fonts CSS -->
-    <link href="assets/fonts/fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet">
+    <link href="/assets/fonts/fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
         
@@ -778,25 +778,25 @@ define('ROOT_PATH', dirname(__FILE__));
 <script src="assets/js/stats.min.js"></script>
 
 <!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/lib/isotope/isotope.min.js"></script>
-<script src="assets/js/owl-carousel.js"></script>
-<script src="assets/js/lightbox.js"></script>
-<script src="assets/js/tabs.js"></script>
-<script src="assets/js/slick-slider.js"></script>
-<script src="assets/js/custom.js"></script>
-<script src="assets/js/scripts.js"></script>
-<script src="assets/lib/wow/wow.min.js"></script>
-<script src="assets/js/skill.js"></script>
-<script src="assets/fonts/fontawesome-free-6.1.1-web/js/all.js"></script>
-<script src="assets/fonts/fontawesome-free-6.1.1-web/js/all.min.js"></script>
+<script src="/vendor/jquery/jquery.min.js"></script>
+<script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/lib/isotope/isotope.min.js"></script>
+<script src="/assets/js/owl-carousel.js"></script>
+<script src="/assets/js/lightbox.js"></script>
+<script src="/assets/js/tabs.js"></script>
+<script src="/assets/js/slick-slider.js"></script>
+<script src="/assets/js/custom.js"></script>
+<script src="/assets/js/scripts.js"></script>
+<script src="/assets/lib/wow/wow.min.js"></script>
+<script src="/assets/js/skill.js"></script>
+<script src="/assets/fonts/fontawesome-free-6.1.1-web/js/all.js"></script>
+<script src="/assets/fonts/fontawesome-free-6.1.1-web/js/all.min.js"></script>
 
 
 <!-- Script -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="assets/js/cookies.js"></script>
+<script src="/assets/js/cookies.js"></script>
 
 <script>
   $(".accept").click(function(){
