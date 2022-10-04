@@ -1,3 +1,10 @@
+<?php
+session_start();
+ob_start();
+$_SESSION['nonce'] = md5(microtime(true));
+$string = bin2hex(openssl_random_pseudo_bytes(32));
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
