@@ -1,3 +1,3 @@
 # Apresentação do Portifolio em HTML
 
-<img src="screen.png"/>
+<img src="screen.png" width="100%" height="60vh"/>
