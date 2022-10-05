@@ -2,6 +2,6 @@
 -Ainda em Atualização.
   <a href="https://adrianalcr.github.io/portifolio/index">Demo Portifolio</a>
  </br>
-  <img src="screen.png" width="50%" height="50%"/>
+  <img src="screen.png" width="100%" height="100%"/>
   
 
