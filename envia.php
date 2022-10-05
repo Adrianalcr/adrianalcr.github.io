@@ -11,7 +11,7 @@
              
              //REMETENTE --> ESTE EMAIL TEM QUE SER VALIDO DO DOMINIO
              //==================================================== 
-             $email_remetente = "webmaster@adrianalima.dev.br"; // deve ser uma conta de email do seu dominio 
+             $email_remetente = "webmaster@github.com"; // deve ser uma conta de email do seu dominio 
              //====================================================
              
              //Configurações do email, ajustar conforme necessidade
