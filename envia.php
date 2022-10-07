@@ -11,12 +11,12 @@
              
              //REMETENTE --> ESTE EMAIL TEM QUE SER VALIDO DO DOMINIO
              //==================================================== 
-             $email_remetente = "webmaster@github.com"; // deve ser uma conta de email do seu dominio 
+             $email_remetente = "seuemail@seudominio.com"; // deve ser uma conta de email do seu dominio 
              //====================================================
              
              //Configurações do email, ajustar conforme necessidade
              //==================================================== 
-             $email_destinatario = "adrianalima-dev@outlook.com"; // pode ser qualquer email que receberá as mensagens
+             $email_destinatario = "seuemail@email.com"; // pode ser qualquer email que receberá as mensagens
              $email_reply = "$email"; 
              $email_assunto = "Contato via Site"; // Este será o assunto da mensagem
              //====================================================
